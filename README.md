@@ -39,13 +39,15 @@ but changed to serve a more general meaning. I tried to make it as userfriendly 
    With ```from DatabaseCommands import CreateTable``` you can create tables in your database.
   #### - Input
    database-connection object: The connection to your database. 
+   
    sql-command: The SQL-Command which creates the table. A full SQL-Command is needed because otherwise your table will not be created.
    
    ---
 ### - Drop Tables
    With ```from DatabaseCommands import DropTable``` you can drop tables in your database.
   #### - Input
-   database-connection object: The connection to your database. 
+   database-connection object: The connection to your database.
+   
    sql-command: The SQL-Command which dropes the table. A full SQL-Command is needed because otherwise your table will not be dropped.
    
    ---
@@ -53,6 +55,7 @@ but changed to serve a more general meaning. I tried to make it as userfriendly 
    With ```from DatabaseCommands import InsertData``` you can insert data in your database. *This module, Update Data and Delete Data work the same way but will be kept for better readability*
    #### - Input
    database-connection object: The connection to your database. 
+   
    sql-command: The SQL-Command which inserts the data. A full SQL-Command is needed because otherwise your data will not be inserted.
    
    ---
@@ -60,6 +63,7 @@ but changed to serve a more general meaning. I tried to make it as userfriendly 
    With ```from DatabaseCommands import UpdateData``` you can update data in your database. *This module, insert data and delete data work the same way but will be kept for better readability*
    #### - Input
    database-connection object: The connection to your database. 
+   
    sql-command: The SQL-Command which updates the data. A full SQL-Command is needed because otherwise your data will not be updated.
 
 ---
@@ -67,6 +71,7 @@ but changed to serve a more general meaning. I tried to make it as userfriendly 
    With ```from DatabaseCommands import DeleteData``` you can delete data in your database. *This module, update data and insert data work the same way but will be kept for better readability*
    #### - Input
    database-connection object: The connection to your database. 
+   
    sql-command: The SQL-Command which deletes the data. A full SQL-Command is needed because otherwise your data will not be deleted.
    
    ---
@@ -74,6 +79,7 @@ but changed to serve a more general meaning. I tried to make it as userfriendly 
    With ```from DatabaseCommands import QueryData```you can Query data from your database.
    #### - Input
    database-connection object: The connection to your database. 
+   
    sql-command: The SQL-Command which selects the data. A full SQL-Command is needed because otherwise your data will not be selected.
    
    #### - Output
