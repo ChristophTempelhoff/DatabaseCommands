@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/DatabaseCommands_pkg_sqlite3_Christoph_Johannes_Tempelhoff.egg-info/PKG-INFO
+src/DatabaseCommands_pkg_sqlite3_Christoph_Johannes_Tempelhoff.egg-info/SOURCES.txt
+src/DatabaseCommands_pkg_sqlite3_Christoph_Johannes_Tempelhoff.egg-info/dependency_links.txt
+src/DatabaseCommands_pkg_sqlite3_Christoph_Johannes_Tempelhoff.egg-info/top_level.txt
